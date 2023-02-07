@@ -8,7 +8,7 @@
 <body>
     <?php
         $valor = 1;
-        echo "Valor: $valor <br>";
+        echo "Valoraa: $valor <br>";
         echo 'Valor: $valor <br>';
         echo 'Valor: '.$valor.'<br>';
     ?>
