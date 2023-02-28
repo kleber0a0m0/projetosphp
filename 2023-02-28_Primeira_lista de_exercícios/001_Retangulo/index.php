@@ -12,30 +12,30 @@
             <div class="col">
                 <h2 class="text-center mt-4">Criador de retânguslos</h2>
                 <h4 class="text-center">Preencha os campos corretamente:</h4>
-                <form>
+                <form action="saida.php" method="get">
                     <div class="mb-3">
                         <label class="form-label">Largura:</label>
-                        <input type="number" class="form-control" id="largura" required>
+                        <input type="number" class="form-control" name="largura" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Altura:</label>
-                        <input type="number" class="form-control" id="altura" required>
+                        <input type="number" class="form-control" name="altura" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Caractere da borda:</label>
-                        <input type="number" class="form-control" id="caractereBorda" required>
+                        <input type="text" class="form-control" name="caractereBorda" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Cor da borda:</label>
-                        <input type="color" class="form-control" style="height: 50px;" value="#ff0000" id="corBorda" required>
+                        <input type="color" class="form-control" style="height: 50px;" value="#ff0000" name="corBorda" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Caractere de prenchimento:</label>
-                        <input type="number" class="form-control" id="caracterePreenchimento" required>
+                        <input type="text" class="form-control" name="caracterePreenchimento" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Cor de preenchimento:</label>
-                        <input type="color" class="form-control" style="height: 50px;" value="#00ff00" id="corPreenchimento" required>
+                        <input type="color" class="form-control" style="height: 50px;" value="#00ff00" name="corPreenchimento" required>
                     </div>
                     <button type="submit" class="btn btn-primary text-center">Gerar retângulo</button>
                 </form>
