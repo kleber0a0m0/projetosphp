@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: #00f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.produto img {
+    width: 400px;
+    height: 300px;
+}
+
+.img-carro{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.produto h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.empresa {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.empresa h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.planos {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.planos h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.planos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.planos th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.formulario h2 {
+    font-size: 24px;
+    color: #333;
+    width: 100%;
+}
+
+.formulario label {
+    display: block;
+    font-size: 18px;
+    color: #666;
+    margin: 10px;
+}
+
+.formulario input, select {
+    display: block;
+    width: 97%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px;
+}
